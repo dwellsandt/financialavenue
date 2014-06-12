@@ -82,6 +82,5 @@ if ($sm->string_exists($identifier.'_help', $component)) {
 }
 
 if (!$ajax) {
-	echo "HERE";
     echo $OUTPUT->footer();
 }
