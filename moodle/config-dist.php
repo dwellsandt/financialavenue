@@ -38,7 +38,11 @@ $CFG = new stdClass();
 // will be stored.  This database must already have been created         //
 // and a username/password created to access it.                         //
 
-$CFG->dbtype    = 'myslqi';      // 'pgsql', 'mysqli', 'mssql', 'sqlsrv' or 'oci'
+<<<<<<< HEAD
+$CFG->dbtype    = 'myslqli';      // 'pgsql', 'mysqli', 'mssql', 'sqlsrv' or 'oci'
+=======
+$CFG->dbtype    = 'mysqli';      // 'pgsql', 'mysqli', 'mssql', 'sqlsrv' or 'oci'
+>>>>>>> fee1700b6932919f6285e0cbeb77485433871beb
 $CFG->dblibrary = 'native';     // 'native' only at the moment
 $CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
 $CFG->dbname    = 'moodle';     // database name, eg moodle
