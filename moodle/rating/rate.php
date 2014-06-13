@@ -115,6 +115,7 @@ if (!empty($cm) && $context->contextlevel == CONTEXT_MODULE) {
     if (function_exists($functionname)) {
         $functionname($modinstance, $rateduserid);
     }
+	echo "HERE";
 }
 
 redirect($returnurl);
